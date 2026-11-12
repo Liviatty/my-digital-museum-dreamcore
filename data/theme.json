@@ -1,0 +1,220 @@
+{
+  "layoutMode": "EDITORIAL",
+  "hero": {
+    "tier": "E",
+    "rationale": "个人旗舰数字博物馆的入口是纯品牌体验（ENTER MUSEUM / 门廊 / 中庭显现），需要全屏沉浸式的非对称3D空间、有机液态月光石和粉白雾气烘托 Dreamcore 的极端情绪价值。",
+    "primary_action": "Enter Museum",
+    "secondary_action": null,
+    "asset_spec": "3D WebGL scene: organic liquid moonstone in a foggy, asymmetrical courtyard with a calm water floor reflection.",
+    "composition": "Full-bleed WebGL 3D canvas with slow, atmospheric camera path and overlaid sparse typography.",
+    "anti_pattern_check": [
+      "centered-stack-button: PASS",
+      "two-equal-CTAs: PASS",
+      "stock-vector-laptop: PASS",
+      "ai-decorative-imagery: PASS",
+      "redrawn-chrome: PASS"
+    ]
+  },
+  "colors": {
+    "brand-primary": "hsl(346 54% 88%)",
+    "brand-secondary": "hsl(205 58% 90%)",
+    "brand-accent": "hsl(24 57% 86%)",
+    "surface-base": "hsl(0 27% 96%)",
+    "surface-raised": "hsl(285 36% 91%)",
+    "surface-glass": "hsl(0 0% 100%)",
+    "text-primary": "hsl(285 5% 17%)",
+    "text-muted": "hsl(285 3% 46%)",
+    "text-inverse": "hsl(0 27% 96%)",
+    "border-subtle": "hsl(270 20% 91%)",
+    "border-strong": "hsl(285 10% 75%)",
+    "status-success": "hsl(140 40% 85%)",
+    "status-warning": "hsl(40 60% 85%)",
+    "status-error": "hsl(0 50% 88%)",
+    "focus-ring": "hsl(24 57% 86%)"
+  },
+  "fontSize": {
+    "caption": [
+      "12px",
+      {
+        "lineHeight": "1.5",
+        "letterSpacing": "0.02em"
+      }
+    ],
+    "body": [
+      "16px",
+      {
+        "lineHeight": "1.7",
+        "letterSpacing": "0em"
+      }
+    ],
+    "body-lg": [
+      "21px",
+      {
+        "lineHeight": "1.6",
+        "letterSpacing": "0em"
+      }
+    ],
+    "h3": [
+      "28px",
+      {
+        "lineHeight": "1.4",
+        "letterSpacing": "0em",
+        "fontWeight": "400"
+      }
+    ],
+    "h2": [
+      "38px",
+      {
+        "lineHeight": "1.3",
+        "letterSpacing": "-0.01em",
+        "fontWeight": "400"
+      }
+    ],
+    "h1": [
+      "51px",
+      {
+        "lineHeight": "1.2",
+        "letterSpacing": "-0.015em",
+        "fontWeight": "400"
+      }
+    ],
+    "display": [
+      "90px",
+      {
+        "lineHeight": "1.1",
+        "letterSpacing": "-0.02em",
+        "fontWeight": "300",
+        "fontStyle": "italic"
+      }
+    ]
+  },
+  "fontFamily": {
+    "display": [
+      "Cormorant Garamond",
+      "ui-serif",
+      "Georgia",
+      "serif"
+    ],
+    "body": [
+      "DM Sans",
+      "ui-sans-serif",
+      "system-ui",
+      "-apple-system",
+      "sans-serif"
+    ],
+    "zh": [
+      "LXGWWenKaiTC",
+      "PingFang SC",
+      "Hiragino Sans GB",
+      "Microsoft YaHei",
+      "serif"
+    ],
+    "_zh_source": {
+      "provider": "emfont",
+      "fontId": "LXGWWenKaiTC",
+      "css_url": "https://font.emtech.cc/css/LXGWWenKaiTC",
+      "weight_url": "https://font.emtech.cc/css/LXGWWenKaiTC/400",
+      "license": "OFL-1.1",
+      "weights_used": [
+        400
+      ],
+      "rationale": "霞鹜文楷TC带来柔和的手写笔触与文化底蕴，完美契合梦幻、私人、诗意的空间基调。"
+    }
+  },
+  "spacing": {
+    "micro": "4px",
+    "tight": "8px",
+    "snug": "12px",
+    "base": "16px",
+    "comfortable": "24px",
+    "loose": "32px",
+    "section": "64px",
+    "section-y": "96px",
+    "macro": "128px",
+    "stack-sm": "24px",
+    "stack-md": "32px",
+    "stack-lg": "64px"
+  },
+  "borderRadius": {
+    "none": "0",
+    "sm": "8px",
+    "DEFAULT": "16px",
+    "md": "24px",
+    "lg": "32px",
+    "full": "9999px"
+  },
+  "boxShadow": {
+    "flat": "none",
+    "raised": "0 4px 20px -2px rgba(225, 210, 225, 0.4)",
+    "floating": "0 12px 30px -4px rgba(214, 232, 245, 0.5)",
+    "glass": "inset 0 0 0 1px rgba(255, 255, 255, 0.4), 0 8px 32px 0 rgba(237, 224, 240, 0.6)",
+    "glow": "0 0 20px 2px rgba(240, 216, 200, 0.6)"
+  },
+  "_type_scale_ratio": {
+    "ratio": 1.333,
+    "ratio_name": "Perfect Fourth",
+    "body_px": 16,
+    "steps": {
+      "caption": -1,
+      "body": 0,
+      "body-lg": 1,
+      "h3": 2,
+      "h2": 3,
+      "h1": 4,
+      "display": 6
+    },
+    "rounded_px": {
+      "caption": 12,
+      "body": 16,
+      "body-lg": 21,
+      "h3": 28,
+      "h2": 38,
+      "h1": 51,
+      "display": 90
+    },
+    "notes": "Using Perfect Fourth (1.333) for a spacious, literary, editorial feel. The display step jumps higher (+6) to emphasize the brand's poetic, immersive atmosphere."
+  },
+  "_spacing_rhythm": {
+    "base_px": 8,
+    "allowed_multipliers": [
+      0.5,
+      1,
+      1.5,
+      2,
+      3,
+      4,
+      6,
+      8,
+      12,
+      16,
+      20,
+      24
+    ],
+    "tokens": {
+      "spacing-micro": 4,
+      "spacing-tight": 8,
+      "spacing-snug": 12,
+      "spacing-base": 16,
+      "spacing-comfortable": 24,
+      "spacing-loose": 32,
+      "spacing-section": 64,
+      "spacing-section-y": 96,
+      "spacing-macro": 128,
+      "spacing-stack-sm": 24,
+      "spacing-stack-md": 32,
+      "spacing-stack-lg": 64
+    }
+  },
+  "_pre_emit_scores": {
+    "P": 5,
+    "H": 5,
+    "E": 5,
+    "S": 5,
+    "R": 5,
+    "V": 5,
+    "R_prime": 5,
+    "mean": 5,
+    "attempts": 1,
+    "notes": "Strong identity derived directly from the Dreamcore brief (foggy, organic, fluid). Colors translated to HSL per contract. Type scale on 1.333 ratio, spacing on 8px base. CJK fonts correctly sourced via emfont using actual ID LXGWWenKaiTC."
+  }
+}

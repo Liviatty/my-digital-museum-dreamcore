@@ -1,0 +1,82 @@
+{
+  "version": "0.1.31",
+  "entryPage": "index",
+  "snapshots": [
+    {
+      "page": "index",
+      "snapshots": [
+        {
+          "id": "index-baseline",
+          "name": "Home Scene",
+          "purpose": "Default entry state. User sees initial museum home experience and Home2D component ready for interaction.",
+          "priority": "p0",
+          "state": {
+            "scene": "HOME",
+            "memoryVisited": false,
+            "photographyVisited": false,
+            "dreamVisited": false,
+            "mapVisible": false,
+            "finaleActive": false
+          }
+        },
+        {
+          "id": "index-entry-scene",
+          "name": "Entry Hall Active",
+          "purpose": "User has triggered entry transition. Scene changes to ENTRY, revealing entry-specific content and interactions.",
+          "priority": "p0",
+          "state": {
+            "scene": "ENTRY",
+            "memoryVisited": false,
+            "photographyVisited": false,
+            "dreamVisited": false,
+            "mapVisible": false,
+            "finaleActive": false
+          }
+        },
+        {
+          "id": "index-courtyard-map",
+          "name": "Courtyard with Map",
+          "purpose": "User in courtyard with map visible. Shows navigation aid overlay and scene progression.",
+          "priority": "p1",
+          "state": {
+            "scene": "COURTYARD",
+            "memoryVisited": false,
+            "photographyVisited": false,
+            "dreamVisited": false,
+            "mapVisible": true,
+            "finaleActive": false
+          }
+        },
+        {
+          "id": "index-all-halls-visited",
+          "name": "All Halls Visited, Finale Ready",
+          "purpose": "User has completed all three halls and is in courtyard. Finale becomes active, triggering completion sequence.",
+          "priority": "p0",
+          "state": {
+            "scene": "COURTYARD",
+            "memoryVisited": true,
+            "photographyVisited": true,
+            "dreamVisited": true,
+            "mapVisible": false,
+            "finaleActive": true
+          }
+        },
+        {
+          "id": "index-memory-path",
+          "name": "Memory Path Scene",
+          "purpose": "User has navigated to memory hall. Scene changes to MEMORY_PATH, showing memory-specific content.",
+          "priority": "p1",
+          "state": {
+            "scene": "MEMORY_PATH",
+            "memoryVisited": false,
+            "photographyVisited": false,
+            "dreamVisited": false,
+            "mapVisible": false,
+            "finaleActive": false
+          }
+        }
+      ],
+      "_zkStateBundleSha256": "3fc4d44281257f299e52259c72b206b0de72e237c2eb4f0ef512d1418b55c4bf"
+    }
+  ]
+}
